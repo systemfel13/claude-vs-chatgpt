@@ -60,8 +60,8 @@ visible to any reader even though it does not change who technically wins.
 
 ## Why this is fixed in advance
 
-The task author (Claude, via this assistant) is not a neutral party in a
-Claude-vs-OpenAI comparison. Fixing the win condition before the task suite itself
+The task author, Claude, is not a neutral party in a Claude-vs-OpenAI
+comparison. Fixing the win condition before the task suite itself
 exists is the main protection against picking a definition of "best" after the
 fact that happens to favor one side, consciously or not. See `METHODOLOGY.md` for
 the full discussion of this and other bias mitigations.
