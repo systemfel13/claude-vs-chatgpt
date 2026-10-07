@@ -1,7 +1,7 @@
 .venv
 /venv
 
-# Secrets - never commit real API keys
+# Secrets
 .env
 
 # Generated at runtime
