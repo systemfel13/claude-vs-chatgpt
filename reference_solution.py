@@ -373,14 +373,13 @@ def calculate_expression(expression: str) -> float:
         """Read a sequence of digit characters starting at the current
         position, and turn it into a number.
 
-        Moves past every digit it reads.
-
         Returns:
             The number as a float.
         """
         nonlocal current_position
 
-        while current_position < len(expression) and expression[current_position] == " ": # While the current position is still within the expression, and the character at that position is a space, keep moving forward
+        # While the current position is still within the expression, and the character at that position is a space, keep moving forward
+        while current_position < len(expression) and expression[current_position] == " ": 
             current_position += 1 # Move to the next character, skipping spaces
         number_start_index = current_position # Remember where the number starts
 
